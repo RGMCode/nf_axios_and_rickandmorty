@@ -4,14 +4,12 @@ import axios from "axios";
 import {useEffect, useState} from "react";
 
     type Character = {
-        character: {
             id: string;
             name: string;
             image: string;
             origin: {
                 name: string;
             };
-        }
     }
 
     function AllCharacters() {
